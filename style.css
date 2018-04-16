@@ -106,7 +106,7 @@ nav a:hover {color: #FDECF3}
 /*------------------ TABLE --------------------*/
 
 table {
-    margin: 2em;
+    margin: 2em 0em;
     display: table;
     border-collapse: collapse; /*---- no white divider ---*/
     border-spacing: 1px;
@@ -125,7 +125,6 @@ th {
 td {
     padding: 1em;
     text-align: left;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin: 0em 2em;
     background: #F38EAF;
 }
