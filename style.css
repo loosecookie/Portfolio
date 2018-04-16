@@ -47,7 +47,7 @@ nav {
     margin: 0;
     width: 100%;
     background-color: #D898D2;
-    padding: 1.5em 0;
+    padding: 1em 0;
 }
 
 nav ul {
@@ -55,20 +55,20 @@ nav ul {
     font-family: 'rift-soft', sans-serif;
     font-size: 100%;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 6px;
 }
 
 nav ul li {
     display: inline;
-    margin: 0px;
+    margin: 0 2px 0 0;
 }
 
 nav a:link {
-    color: #fff
+    color: #000
 }
 
 nav a:visited {
-    color: #fff;
+    color: #000;
 }
 
 nav a:hover {
