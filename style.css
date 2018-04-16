@@ -123,5 +123,7 @@ th {
 th, td {
     padding: 1em;
     text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
     background: #F38EAF;
 }
