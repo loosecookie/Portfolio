@@ -104,7 +104,8 @@ nav a:hover {
 /*-------------------- SECTIONS ----------------------*/
 
 .border {background: #F38EAF;
-    margin: 0 2em 0 2em;
+    margin: 0 4em 0 4em;
+    padding-left: 2em;
     padding-top: 0.1em;
     padding-bottom: 0.1em;}
 
