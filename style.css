@@ -88,7 +88,7 @@ nav {
 nav ul {
     text-align: right;
     font-family: 'rift-soft', sans-serif;
-    font-size: 300%;
+    font-size: 200%;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -107,9 +107,9 @@ nav a:hover {color: #FDECF3}
 
 .border {background: #F38EAF;
     margin: 0 4em 0 4em;
-    padding-left: 1em;
+    padding-left: 0.5em;
     padding-top: 0.1em;
-    padding-bottom: 0.1em;}
+    padding-bottom: 0.5em;}
 
 
 /*------------------ TABLE --------------------*/
