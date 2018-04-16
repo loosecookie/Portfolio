@@ -107,7 +107,7 @@ table {
     margin: auto;
     display: table;
     border-collapse: collapse; /*---- no white divider ---*/
-    border-spacing: 2px;
+    border-spacing: 4px;
     margin-bottom: 1em;
     font-family: 'acumin-pro-condensed', sans-serif;
 }
