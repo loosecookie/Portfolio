@@ -37,3 +37,40 @@ p {
     line-height: 1.5em; /*--- spacing between each line ---*/
     margin-bottom: 1.5em; /*--- spacing between each paragraph ---*/
 }
+
+/*------------------ NAVIGATION -------------------------*/
+
+nav {
+    position: absolute; /*--- stays at top of page ---*/
+    top: 0; /*--- placement on page ---*/
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #D898D2;
+    padding: 1.6em 0;
+}
+
+nav ul {
+    text-align: center;
+    font-family: 'rift-soft', sans-serif;
+    font-size: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0px;
+}
+
+nav a:link {
+    color: #fff
+}
+
+nav a:visited {
+    color: #fff;
+}
+
+nav a:hover {
+    color: #FDECF3
+}
