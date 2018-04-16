@@ -105,7 +105,8 @@ nav a:hover {
 
 .border {background: #F38EAF;
     margin: 0 2em 0 2em;
-    padding: 1em;}
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;}
 
 
 /*------------------ TABLE --------------------*/
