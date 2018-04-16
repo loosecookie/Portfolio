@@ -41,17 +41,17 @@ p {
 /*------------------ NAVIGATION -------------------------*/
 
 nav {
-    position: static; /*--- stays at top of page ---*/
+    position: relative; /*--- stays at top of page ---*/
     top: 10em; /*--- placement on page ---*/
     left: 0;
     margin: 0;
     width: 100%;
     background-color: #D898D2;
-    padding: 4em 0;
+    padding: 1.5em 0;
 }
 
 nav ul {
-    text-align: center;
+    text-align: right;
     font-family: 'rift-soft', sans-serif;
     font-size: 100%;
     text-transform: uppercase;
