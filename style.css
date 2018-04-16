@@ -100,3 +100,27 @@ nav a:visited {
 nav a:hover {
     color: #FDECF3
 }
+
+/*------------------ TABLE --------------------*/
+
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse; /*---- no white divider ---*/
+    border-spacing: 2px;
+    margin-bottom: 1em;
+    font-family: 'acumin-pro-condensed', sans-serif;
+}
+
+th {
+    color: #fff;
+    font-family: 'rift-soft', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    background: #F38EAF;
+}
+
+th, td {
+    padding: 0.6em;
+}
