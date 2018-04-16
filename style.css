@@ -27,7 +27,7 @@ h1, h2, h3 {
     font-family: 'rift-soft', sans-serif;
     font-weight: normal; /*--- rather than bold font ---*/
     color: #000;
-    text-align: center;
+    text-align: left;
 }
 
 p {
