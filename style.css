@@ -60,7 +60,7 @@ h5 {
 p1 {
     font-size: 200%;
     font-family: 'acumin-pro-condensed', sans-serif;
-    margin: 1em 3em;
+    padding: 1em 3em;
     line-height: 1.5em; /*--- spacing between each line ---*/
     margin-bottom: 1.5em; /*--- spacing between each paragraph ---*/
 }
