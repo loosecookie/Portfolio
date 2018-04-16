@@ -77,12 +77,10 @@ p {
 
 nav {
     position: inherit; /*--- stays at top of page ---*/
-    top: 10em; /*--- placement on page ---*/
-    left: 0;
     margin: 0;
     width: 100%;
     background-color: #D898D2;
-    padding: 1em 0;
+    padding: 0.1em 0;
 }
 
 nav ul {
