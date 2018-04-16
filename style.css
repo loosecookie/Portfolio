@@ -104,7 +104,7 @@ nav a:hover {
 /*------------------ TABLE --------------------*/
 
 table {
-    margin: auto;
+    margin: inherit;
     display: table;
     border-collapse: collapse; /*---- no white divider ---*/
     border-spacing: 1px;
