@@ -113,7 +113,6 @@ table {
 }
 
 th {
-    color: #fff;
     font-family: 'rift-soft', sans-serif;
     text-transform: uppercase;
     font-weight: normal;
@@ -122,6 +121,6 @@ th {
 }
 
 th, td {
-    padding: 0.6em;
+    padding: 1em;
     background: #F38EAF;
 }
