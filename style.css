@@ -16,18 +16,19 @@ body {
     font-style: normal;
     font-weight: 400;
     margin: auto;
-    background-color: #f0f0f0;
+    background-color: #FDECF3;
     color: #333;
     line-height: 1.8em;
 }
 
 /*------------------ TYPOGRAPHY ------------------------*/
 
-h1, h2, h3 {
+h1 {
     font-family: 'rift-soft', sans-serif;
     font-weight: normal; /*--- rather than bold font ---*/
     color: #000;
-    text-align: left;
+    text-align: right;
+    font-size: 50em;
 }
 
 p {
