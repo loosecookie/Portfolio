@@ -20,3 +20,20 @@ body {
     color: #333;
     line-height: 1.8em;
 }
+
+/*------------------ TYPOGRAPHY ------------------------*/
+
+h1, h2, h3 {
+    font-family: "rift-soft", sans-serif;
+    font-weight: normal; /*--- rather than bold font ---*/
+    color: #000;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    font-family: 'acumin-pro-condensed', sans-serif;
+    margin: 0 10em;
+    line-height: 1.5em; /*--- spacing between each line ---*/
+    margin-bottom: 1.5em; /*--- spacing between each paragraph ---*/
+}
