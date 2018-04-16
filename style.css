@@ -41,13 +41,13 @@ p {
 /*------------------ NAVIGATION -------------------------*/
 
 nav {
-    position: static; /*--- stays at top of page ---*/
+    position: sticky; /*--- stays at top of page ---*/
     top: 10em; /*--- placement on page ---*/
     left: 0;
     margin: 0;
     width: 100%;
     background-color: #D898D2;
-    padding: 1.6em 0;
+    padding: 4em 0;
 }
 
 nav ul {
