@@ -8,11 +8,13 @@
 }
 
 header {
-    margin: 5.7em 0} /*--- page margin, works clockwise ---*/
+    margin: 2em 0} /*--- page margin, works clockwise ---*/
 
 body {
     width: 100%;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'acumin-pro-condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     margin: auto;
     background-color: #f0f0f0;
     color: #333;
