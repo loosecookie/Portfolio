@@ -28,7 +28,15 @@ h1 {
     font-weight: normal; /*--- rather than bold font ---*/
     color: #000;
     text-align: right;
-    font-size: 10em;
+    font-size: 5em;
+}
+
+h2 {
+    font-family: 'rift-soft', sans-serif;
+    font-weight: normal; /*--- rather than bold font ---*/
+    color: #000;
+    text-align: right;
+    font-size: 4em;
 }
 
 p {
