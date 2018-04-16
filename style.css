@@ -101,6 +101,12 @@ nav a:hover {
     color: #FDECF3
 }
 
+/*-------------------- SECTIONS ----------------------*/
+
+.border {background: #F38EAF;
+    margin: 0 2em 0 2em}
+
+
 /*------------------ TABLE --------------------*/
 
 table {
