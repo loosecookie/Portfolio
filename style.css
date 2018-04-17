@@ -21,6 +21,12 @@ body {
     line-height: 1.8em;
 }
 
+/*------------------ HEADER ------------------------*/
+
+.header{
+    background-image: url(icons/headerimg.png);
+}
+
 /*------------------ TYPOGRAPHY ------------------------*/
 
 h1 {
@@ -73,6 +79,25 @@ p {
     margin-bottom: 1.5em; /*--- spacing between each paragraph ---*/
 }
 
+blockquote{
+    font-size: 25px;
+    padding: 10px;
+}
+
+/*------------------- LINKS ----------------------------*/
+
+a {
+    color: #000;
+    font-family: 'Rift-soft', sans-serif;
+    text-decoration: none;
+    -webkit-transition: all 0.15s ease-in; /*--- transition on hover ---*/
+    margin-left: 3em;
+}
+
+a:hover {
+    color: #FDECF3;
+}
+
 /*------------------ NAVIGATION -------------------------*/
 
 nav {
@@ -84,10 +109,9 @@ nav {
 }
 
 nav ul {
-    text-align: right;
+    text-align: center;
     font-family: 'rift-soft', sans-serif;
     font-size: 200%;
-    text-transform: uppercase;
     letter-spacing: 1px;
 }
 
@@ -103,34 +127,61 @@ nav a:hover {color: #FDECF3}
 
 /*-------------------- SECTIONS ----------------------*/
 
+.padding{
+    margin: 100px 50px;
+}
+
 .border {background: #F38EAF;
     margin: 0 2em 0.5em 2em;
     padding-left: 1em;
     padding-top: 0.1em;
     padding-bottom: 0.1em;}
-
-
-/*------------------ TABLE --------------------*/
-
-table {
-    margin: 2em 0em;
-    display: table;
-    border-collapse: collapse; /*---- no white divider ---*/
-    border-spacing: 1px;
-    margin-bottom: 1em;
-    font-family: 'acumin-pro-condensed', sans-serif;
 }
 
-th {
-    font-family: 'rift-soft', sans-serif;
-    text-transform: uppercase;
-    font-weight: normal;
+.border2 {background: #F38EAF;}
+
+/*-------------------- FLEXBOX1 ----------------------*/
+
+.box{
+    font-size: 15px;
     text-align: center;
+    padding: 10px;
     background: #F38EAF;
 }
 
-td {
+.box4, .box5, .box6, .box13, .box14, .box15 {
+    font-family: 'rift-soft', sans-serif;
+    font-size: 30px;
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    width:calc(33.333333% - 20px)
+}
+
+/*-------------------- FLEXBOX2 ----------------------*/
+
+.boxx{
+    font-size: 25px;
     text-align: left;
-    padding: 0.5em 4em;
-    background: #F38EAF;
+    padding: 20px;
+    background: #FDECF3;
+}
+
+.container2 {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.boxx{
+    width:calc(50% - 40px)
+}
+
+.boxx2, .boxx6{
+    text-align:left
 }
