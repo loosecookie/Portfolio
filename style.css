@@ -91,7 +91,6 @@ a {
     font-family: 'Rift-soft', sans-serif;
     text-decoration: none;
     -webkit-transition: all 0.15s ease-in; /*--- transition on hover ---*/
-    margin-left: 3em;
 }
 
 a:hover {
@@ -103,7 +102,6 @@ a:hover {
 nav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #D898D2;
     position: -webkit-sticky; /* Safari */
@@ -120,7 +118,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 5px 0 0;}
+    margin: 0 40px}
 
 nav a:link {color: #000}
 
