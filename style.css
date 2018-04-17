@@ -45,7 +45,7 @@ h2 { /*UI Designer etc*/
     font-family: 'rift-soft', sans-serif;
     font-weight: normal;
     text-align: left;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 h3 { /*Hi! I'm*/
@@ -64,11 +64,10 @@ h5 {
 }
 
 p1 {
-    font-size: 200%;
+    font-size: 35px;
     font-family: 'acumin-pro-condensed', sans-serif;
-    padding: 2em 3em;
+    margin-left: 100px;
     line-height: 1.5em; /*--- spacing between each line ---*/
-    margin-bottom: 1.5em; /*--- spacing between each paragraph ---*/
 }
 
 p {
@@ -132,8 +131,12 @@ nav a:hover {color: #FDECF3}
     margin: 100px 50px;
 }
 
+.textalign{
+    text-align:right;
+}
+
 .border {background: #F38EAF;
-    margin: 0 2em 0.5em 2em;
+    margin: 0 100px 20px 100px;
     padding-left: 1em;
     padding-top: 0.1em;
     padding-bottom: 0.1em;}
@@ -141,13 +144,30 @@ nav a:hover {color: #FDECF3}
 
 .border2 {background: #F38EAF;}
 
+.button {
+    font-family: 'rift-soft', sans-serif;
+    font-size: 30px;
+    background-color: #D898D2;
+    border: #FDECF3;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 /*-------------------- FLEXBOX1 ----------------------*/
 
 .box{
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     padding: 10px;
     background: #F38EAF;
+    width:calc(33.333333% - 20px)
+}
+
+.box1, .box2, .box3, .box10, .box11, .box12{
+    padding-top: 40px;
 }
 
 .box4, .box5, .box6, .box13, .box14, .box15 {
@@ -155,14 +175,17 @@ nav a:hover {color: #FDECF3}
     font-size: 30px;
 }
 
+.box7, .box8, .box9, .box16, .box17, .box18{
+    text-align: left;
+    padding-bottom: 40px;
+    /*padding-left: 50px;
+    width:calc(33.333333% - 100px)*/
+}
+
 .container {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.box{
-    width:calc(33.333333% - 20px)
 }
 
 /*-------------------- FLEXBOX2 ----------------------*/
