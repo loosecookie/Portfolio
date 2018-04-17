@@ -101,12 +101,15 @@ a:hover {
 /*------------------ NAVIGATION -------------------------*/
 
 nav {
-    position: inherit; /*--- stays at top of page ---*/
+    list-style-type: none;
     margin: 0;
-    width: 100%;
+    padding: 0;
+    overflow: hidden;
     background-color: #D898D2;
-    padding: 0.5em 0;
-}
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    padding: 0.5em 0;}
 
 nav ul {
     text-align: center;
