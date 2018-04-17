@@ -3,38 +3,31 @@
 * {
     padding: 0;
     margin: 0;
-    font-size; 10%;
+    font-size; 100%;
     line-height: 1em;
 }
-
-header {
-    margin: 2em 0} /*--- page margin, works clockwise ---*/
 
 body {
     width: 100%;
     font-family: 'acumin-pro-condensed', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    margin: auto;
     background-color: #FDECF3;
-    color: #333;
+    color: #000;
     line-height: 1.8em;
 }
 
 /*------------------ HEADER ------------------------*/
 
 .header{
-    background-image: url(icons/headerimg.png);
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgba(216,152,210,0.8), rgba(243,142,175,0.6));
 }
 
 /*------------------ TYPOGRAPHY ------------------------*/
 
 h1 {
     font-family: 'rift-soft', sans-serif;
-    font-weight: normal; /*--- rather than bold font ---*/
-    color: #000;
     text-align: right;
-    font-size: 500%;
+    font-size: 100px;
 }
 
 h2 {
