@@ -10,6 +10,7 @@
 body {
     width: 100%;
     font-family: 'acumin-pro-condensed', sans-serif;
+    font-weight:normal;
     background-color: #FDECF3;
     color: #000;
     line-height: 1.8em;
@@ -22,38 +23,44 @@ body {
     background: linear-gradient(to bottom right, rgba(216,152,210,0.8), rgba(243,142,175,0.6));
 }
 
+.padding1{
+    padding-top: 150px;
+    padding-right: 485px;
+}
+
+.padding2{
+    padding-right:100px;
+}
+
 /*------------------ TYPOGRAPHY ------------------------*/
 
-h1 {
+h1 { /*LUCY COOK*/
     font-family: 'rift-soft', sans-serif;
+    font-weight: normal; 
     text-align: right;
-    font-size: 100px;
+    font-size: 150px;
 }
 
-h2 {
+h2 { /*UI Designer etc*/
     font-family: 'rift-soft', sans-serif;
-    font-weight: normal; /*--- rather than bold font ---*/
-    color: #000;
+    font-weight: normal;
     text-align: left;
-    font-size: 300%;
-    margin: 0 5em;
+    font-size: 50px;
 }
 
-h3 {
+h3 { /*Hi! I'm*/
     font-family: 'acumin-pro-condensed', sans-serif;
-    font-weight: normal; /*--- rather than bold font ---*/
-    color: #000;
+    font-weight: normal;
     text-align: right;
-    font-size: 300%;
+    font-size: 70px;
 }
 
 
 h5 {
     font-family: 'acumin-pro-condensed', sans-serif;
-    font-weight: normal; /*--- rather than bold font ---*/
-    color: #000;
+    font-weight: normal;
     text-align: right;
-    font-size: 200%;
+    font-size: 35px;
 }
 
 p1 {
@@ -104,7 +111,7 @@ nav {
 nav ul {
     text-align: center;
     font-family: 'rift-soft', sans-serif;
-    font-size: 200%;
+    font-size: 30px;
     letter-spacing: 1px;
 }
 
