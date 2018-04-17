@@ -55,6 +55,14 @@ h3 { /*Hi! I'm*/
     font-size: 70px;
 }
 
+h4 { /*My Portfolio*/
+    font-family: 'rift-soft', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    font-size: 60px;
+    margin: 60px 40px;
+}
+
 
 h5 {
     font-family: 'acumin-pro-condensed', sans-serif;
@@ -67,15 +75,23 @@ p1 {
     font-size: 35px;
     font-family: 'acumin-pro-condensed', sans-serif;
     margin-left: 100px;
-    line-height: 1.5em; /*--- spacing between each line ---*/
+    line-height: 50px; /*--- spacing between each line ---*/
 }
 
 p {
-    font-size: 1em;
+    font-size: 35px;
     font-family: 'acumin-pro-condensed', sans-serif;
-    margin: 0 10em;
-    line-height: 1.5em; /*--- spacing between each line ---*/
-    margin-bottom: 1.5em; /*--- spacing between each paragraph ---*/
+    padding: 60px 40px;
+    text-align: center;
+    background-color: #F38EAF;
+    line-height: 40px; /*--- spacing between each line ---*/
+}
+
+p2 {
+    font-size: 35px;
+    font-family: 'acumin-pro-condensed', sans-serif;
+    padding: 60px 40px;
+    line-height: 40px;
 }
 
 /*------------------- LINKS ----------------------------*/
@@ -137,24 +153,21 @@ nav a:hover {color: #FDECF3}
     padding-bottom: 0.1em;}
 }
 
+.border2 {background: #D898D2;
+    width: 100%;
+    margin: 100px 100px 100px 100px;
+    padding: 100px;}
+}
+
 .button {
-	background-color:#D898D2;
-	border:3px solid #FDECF3;
-	display:inline-block;
-	cursor:pointer;
-	color:#000;
-	font-family: 'rift-soft', sans-serif;
-	font-size:30px;
-	padding:15px 30px;
-	text-decoration:none;
-}
-.button:hover {
-	background-color:#FDECF3;
-}
-.button:active {
-	position:relative;
-	top:1px;
-}
+    background-color: #D898D2;
+    padding: 0px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+   	border:3px solid #FDECF3;
+} 
 
 /*-------------------- FLEXBOX1 ----------------------*/
 
@@ -195,6 +208,7 @@ nav a:hover {color: #FDECF3}
     text-align: left;
     padding: 20px;
     background: #FDECF3;
+    width:calc(50% - 40px)
 }
 
 .container2 {
@@ -202,10 +216,11 @@ nav a:hover {color: #FDECF3}
     flex-wrap: wrap;
 }
 
-.boxx{
-    width:calc(50% - 40px)
+.boxx2, .boxx6{
+    text-align:right;
 }
 
-.boxx2, .boxx6{
-    text-align:left
+.boxx1, .boxx4, .boxx5{
+    background-color: #F38EAF;
 }
+
