@@ -78,11 +78,6 @@ p {
     margin-bottom: 1.5em; /*--- spacing between each paragraph ---*/
 }
 
-blockquote{
-    font-size: 25px;
-    padding: 10px;
-}
-
 /*------------------- LINKS ----------------------------*/
 
 a {
@@ -142,18 +137,23 @@ nav a:hover {color: #FDECF3}
     padding-bottom: 0.1em;}
 }
 
-.border2 {background: #F38EAF;}
-
 .button {
-    font-family: 'rift-soft', sans-serif;
-    font-size: 30px;
-    background-color: #D898D2;
-    border: #FDECF3;
-    padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+	background-color:#D898D2;
+	border:3px solid #FDECF3;
+	display:inline-block;
+	cursor:pointer;
+	color:#000;
+	font-family: 'rift-soft', sans-serif;
+	font-size:30px;
+	padding:15px 30px;
+	text-decoration:none;
+}
+.button:hover {
+	background-color:#FDECF3;
+}
+.button:active {
+	position:relative;
+	top:1px;
 }
 
 /*-------------------- FLEXBOX1 ----------------------*/
