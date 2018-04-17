@@ -71,6 +71,13 @@ h5 {
     font-size: 35px;
 }
 
+p2 {
+    font-size: 35px;
+    font-family: 'acumin-pro-condensed', sans-serif;
+    text-align: center;
+    line-height: 40px;
+}
+
 p1 {
     font-size: 35px;
     font-family: 'acumin-pro-condensed', sans-serif;
@@ -85,13 +92,6 @@ p {
     text-align: center;
     background-color: #F38EAF;
     line-height: 40px; /*--- spacing between each line ---*/
-}
-
-p2 {
-    font-size: 35px;
-    font-family: 'acumin-pro-condensed', sans-serif;
-    padding: 60px 40px;
-    line-height: 40px;
 }
 
 /*------------------- LINKS ----------------------------*/
@@ -153,12 +153,6 @@ nav a:hover {color: #FDECF3}
     padding-bottom: 0.1em;}
 }
 
-.border2 {background: #D898D2;
-    width: 100%;
-    margin: 100px 100px 100px 100px;
-    padding: 100px;}
-}
-
 .button {
     background-color: #D898D2;
     padding: 0px 50px;
@@ -167,7 +161,7 @@ nav a:hover {color: #FDECF3}
     display: inline-block;
     font-size: 30px;
    	border:3px solid #FDECF3;
-} 
+}
 
 /*-------------------- FLEXBOX1 ----------------------*/
 
@@ -224,3 +218,9 @@ nav a:hover {color: #FDECF3}
     background-color: #F38EAF;
 }
 
+/*-------------------- FOOTER ----------------------*/
+
+footer{
+    padding: 100px, 100px;
+    background: linear-gradient(to bottom right, rgba(216,152,210,0.8), rgba(243,142,175,0.6)); 
+}
