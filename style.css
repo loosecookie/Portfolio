@@ -64,11 +64,17 @@ h4 { /*My Portfolio*/
 }
 
 
-h5 {
+h5 { /*new opportunities*/
     font-family: 'acumin-pro-condensed', sans-serif;
     font-weight: normal;
     text-align: right;
     font-size: 35px;
+}
+
+    
+h6{ font-family: 'rift-soft', sans-serif;
+    font-weight:normal;
+    font-size: 30px;
 }
 
 p1 {
@@ -166,7 +172,7 @@ nav a:hover {color: #FDECF3}
     font-size: 30px;
 } 
 
-/*-------------------- FLEXBOX1 ----------------------*/
+/*-------------------- FLEXBOX1 ABOUT ME ----------------------*/
 
 .box{
     font-size: 20px;
@@ -196,7 +202,7 @@ nav a:hover {color: #FDECF3}
     justify-content: space-evenly;
 }
 
-/*-------------------- FLEXBOX2 ----------------------*/
+/*-------------------- FLEXBOX2 PORTFOLIO ----------------------*/
 
 .boxx{
     font-size: 25px;
@@ -214,9 +220,28 @@ nav a:hover {color: #FDECF3}
     text-align:right;
 }
 
-.boxx1, .boxx4, .boxx5{
-
+.boxx1, .boxx5{
+    padding-top: 100px;
+    padding-left: 100px;
+    width: calc(50% - 100px)
 }
+
+.boxx4{
+    padding-top: 100px;
+    padding-left: 50px;
+    width: calc(50% - 100px)
+}
+
+.button2 {
+    background-color: #D898D2;
+    border: 3px solid #F4D7EA;
+    padding: 5px 50px;
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+} 
 
 /*-------------------- FOOTER ----------------------*/
 
@@ -236,11 +261,22 @@ footer{
     margin-top: 50px;
 }
 
+.fa {
+    padding: 20px;
+    color: #fff;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #F38EAF;
+} 
+
 a {
     text-decoration: none;
     -webkit-transition: all 0.15s ease-in; /*--- transition on hover ---*/
 }
 
 a:hover {
-    color: #FDECF3;
+    color: #F4D7EA;
 }
