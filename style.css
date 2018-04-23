@@ -223,17 +223,13 @@ nav a:hover {color: #FDECF3}
 p2 {
     font-size: 35px;
     font-family: 'acumin-pro-condensed', sans-serif;
-    text-align: center;
     line-height: 40px;
 }
 
 footer{
-    padding: 100px, 100px;
+    text-align: center;
+    padding: 100px;
     background: linear-gradient(to bottom right, rgba(216,152,210,0.8), rgba(243,142,175,0.6)); 
-}
-
-.socialicons{
-    align-content: center;
 }
 
 a {
