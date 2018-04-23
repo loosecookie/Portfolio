@@ -71,13 +71,6 @@ h5 {
     font-size: 35px;
 }
 
-p2 {
-    font-size: 35px;
-    font-family: 'acumin-pro-condensed', sans-serif;
-    text-align: center;
-    line-height: 40px;
-}
-
 p1 {
     font-size: 35px;
     font-family: 'acumin-pro-condensed', sans-serif;
@@ -163,6 +156,16 @@ nav a:hover {color: #FDECF3}
    	border:3px solid #FDECF3;
 }
 
+.button {
+    background-color: #D898D2;
+    border: 3px solid #FDECF3;
+    padding: 0px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+} 
+
 /*-------------------- FLEXBOX1 ----------------------*/
 
 .box{
@@ -185,8 +188,6 @@ nav a:hover {color: #FDECF3}
 .box7, .box8, .box9, .box16, .box17, .box18{
     text-align: left;
     padding-bottom: 40px;
-    /*padding-left: 50px;
-    width:calc(33.333333% - 100px)*/
 }
 
 .container {
@@ -200,9 +201,8 @@ nav a:hover {color: #FDECF3}
 .boxx{
     font-size: 25px;
     text-align: left;
-    padding: 20px;
     background: #FDECF3;
-    width:calc(50% - 40px)
+    width: 50%/*calc(50% - 40px)*/
 }
 
 .container2 {
@@ -220,7 +220,27 @@ nav a:hover {color: #FDECF3}
 
 /*-------------------- FOOTER ----------------------*/
 
+p2 {
+    font-size: 35px;
+    font-family: 'acumin-pro-condensed', sans-serif;
+    text-align: center;
+    line-height: 40px;
+}
+
 footer{
     padding: 100px, 100px;
     background: linear-gradient(to bottom right, rgba(216,152,210,0.8), rgba(243,142,175,0.6)); 
+}
+
+.socialicons{
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.15s ease-in; /*--- transition on hover ---*/
+}
+
+a:hover {
+    color: #FDECF3;
 }
