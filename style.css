@@ -232,6 +232,10 @@ footer{
     background: linear-gradient(to bottom right, rgba(216,152,210,0.8), rgba(243,142,175,0.6)); 
 }
 
+.socialicons{
+    margin-top: 50px;
+}
+
 a {
     text-decoration: none;
     -webkit-transition: all 0.15s ease-in; /*--- transition on hover ---*/
