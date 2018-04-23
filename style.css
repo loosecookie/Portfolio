@@ -21,6 +21,7 @@ body {
 .header{
     height: 100vh;
     background: linear-gradient(to bottom right, rgba(216,152,210,0.8), rgba(243,142,175,0.6));
+    background-image: url(icons/continuous.png)
 }
 
 .padding1{
@@ -60,7 +61,7 @@ h4 { /*My Portfolio*/
     font-weight: normal;
     text-align: left;
     font-size: 60px;
-    margin: 60px 150px;
+    margin: 100px 0px 0px 150px;
 }
 
 
@@ -194,6 +195,9 @@ nav a:hover {color: #FDECF3}
 .box7, .box8, .box9, .box16, .box17, .box18{
     text-align: left;
     padding-bottom: 40px;
+    padding-left: 70px;
+    padding-right: 50px;
+    width: calc(33.3333333% - 120px)
 }
 
 .container {
