@@ -142,10 +142,6 @@ nav a:hover {color: #FDECF3}
     margin: 100px 50px;
 }
 
-.textalign{
-    text-align:right;
-}
-
 .border {background: #F38EAF;
     margin: 0 100px 20px 100px;
     padding-left: 1em;
@@ -284,3 +280,88 @@ a {
 a:hover {
     color: #F4D7EA;
 }
+
+/*------------------ MEDIA QUERIES -------------------*/
+
+/*------ tablet ---------*/
+
+@media (max-width: 50em) {
+    
+    .box7, .box8, .box9, .box16, .box17, .box18{
+    padding-left: 30px;
+    padding-right: 10px;
+    width: calc(33.3333333% - 40px)
+}
+    .boxx2{
+        width:20%;
+    }
+    
+    .boxx1, .boxx5{
+    padding-top: 80px;
+    padding-left: 60px;
+    width: calc(50% - 60px)
+}
+
+    .boxx4{
+    padding-top: 80px;
+    padding-left: 50px;
+    width: calc(50% - 80px)
+}
+
+    p2{
+        font-size: 30px;
+    }
+/*----------- SMARTPHONE ----------- */
+
+ @media (max-width: 35em) {
+     
+     h1 {font-size: 100px;}
+     h3 {font-size: 50px;}
+     h5 {font-size: 30px;}
+     .padding1{padding-right: 350px;}
+     
+     nav ul {font-size: 25px;}
+     nav ul li {margin: 0 15px}
+     
+     p1 {font-size: 30px;}
+     h2 {font-size: 50px;}
+     .padding{margin: 80px -40px;}
+     
+    .box{font-size: 15px;}
+     .box1, .box2, .box3, .box10, .box11, .box12{ font-size: 20px;}
+     .box4, .box5, .box6, .box13, .box14, .box15 {font-size: 24px;}
+     .box7, .box8, .box9, .box16, .box17, .box18{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: calc(33.3333333% - 30px)}
+     
+    p {font-size: 25px;
+     line-height: 30px;
+     padding: 40px 20px;}
+     
+    .box7, .box8, .box9, .box16, .box17, .box18{
+    padding-left: 20px;
+    padding-right: 5px;
+    width: calc(33.3333333% - 25px)
+}
+     /* flexbox2*/
+    .boxx {font-size: 18px;}
+    .boxx2{width:20%;}
+    
+    .boxx1, .boxx5{
+    padding-top: 80px;
+    padding-left: 40px;
+    width: calc(50% - 40px)
+}
+    .boxx4{
+    padding-top: 80px;
+    padding-left: 50px;
+    width: calc(50% - 60px)
+}
+
+     h6 {font-size: 25px;}
+     .button2 {font-size: 25px;}
+     
+     footer {padding: 80px 30px; }
+     p2{font-size: 25px;}
