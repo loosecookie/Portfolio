@@ -302,7 +302,7 @@ nav a:hover {
 
 footer{
     text-align: center;
-    padding: 100px;
+    padding: 160px;
     background: linear-gradient(to bottom right, rgba(216,152,210,0.8), rgba(243,142,175,0.6)); 
 }
 
@@ -370,6 +370,7 @@ footer{
     width: calc(50% - 70px)}
 .boxx6 img{width: 100%;}
     
+    footer{padding:100px;}
     p2{font-size: 30px;}
 /*----------- SMARTPHONE ----------- */
 
@@ -407,8 +408,6 @@ footer{
     grid-column: 7/11;
     padding-top: 85px;
     }
-    
-
      
 .container2 {
     display:flex;
