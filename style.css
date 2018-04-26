@@ -71,12 +71,11 @@ h2 { /*UI Designer etc*/
 }
 
 p { /*new opportunities text*/
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'acumin-pro-condensed', sans-serif;
-    padding: 60px 60px;
-    text-align: center;
+    padding: 60px 70px;
+    text-align: left;
     background-color: #F38EAF;
-    line-height: 40px; /*--- spacing between each line ---*/
 }
 
 h4 { /*My Portfolio*/
@@ -110,11 +109,15 @@ a {
     color: #000;
     font-family: 'Rift-soft', sans-serif;
     text-decoration: none;
-    -webkit-transition: all 0.15s ease-in; /*--- transition on hover ---*/
 }
 
 a:hover {
     color: #FDECF3;
+}
+
+a:hover {
+    transform: scale(1.1);-webkit-transition: transform .2s; transition-timing-function: ease-in-out; cursor: pointer;
+    color: #F4D7EA;
 }
 
 /*------------------ NAVIGATION -------------------------*/
@@ -144,7 +147,9 @@ nav a:link {color: #000}
 
 nav a:visited {color: #000;}
 
-nav a:hover {color: #FDECF3}
+nav a:hover {
+    -webkit-transition: all 0.25s ease-in;
+    color: #FDECF3}
 
 /*-------------------- I CONSIDER MYSELF AS - ABOUT ME SECTION ----------------------*/
 
@@ -161,11 +166,6 @@ nav a:hover {color: #FDECF3}
 
 /*------------------- NEW OPPORTUNITIES - ABOUT ME SECTION ------------------*/
 
-div.opportunities {
-    display:grid;
-    grid-template-columns: 50% 50%;
-}
-
 .button {
     background-color: #D898D2;
     padding: 0px 50px;
@@ -179,12 +179,27 @@ div.opportunities {
 .button {
     background-color: #D898D2;
     border: 3px solid #FDECF3;
-    padding: 0px 50px;
+    padding: 5px 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
 } 
+
+#opportunities{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+.item {
+    grid-column: 1/8;
+    }
+.item2 {
+    grid-column: 8/11;
+    background-color: #F38EAF;
+    padding-top: 70px;
+    padding-left: 28px;
+    }
 
 /*-------------------- FLEXBOX1 - ABOUT ME ----------------------*/
 
@@ -204,6 +219,25 @@ div.opportunities {
 
 .box1, .box2, .box3, .box10, .box11, .box12{
     padding-top: 40px;
+}
+
+.box1 img:hover{
+    transform: scale(1.05);-webkit-transition: transform .4s; transition-timing-function: ease-in-out;
+}
+.box2 img:hover{
+    transform: scale(1.05);-webkit-transition: transform .4s; transition-timing-function: ease-in-out;
+}
+.box3 img:hover{
+    transform: scale(1.05);-webkit-transition: transform .4s ease-in-out;
+}
+.box10 img:hover{
+    transform: scale(1.05);-webkit-transition: transform .4s ease-in-out;
+}
+.box11 img:hover{
+    transform: scale(1.05);-webkit-transition: transform .4s ease-in-out;
+}
+.box12 img:hover{
+    transform: scale(1.05);-webkit-transition: transform .4s ease-in-out;
 }
 
 .box4, .box5, .box6, .box13, .box14, .box15 {
@@ -277,12 +311,13 @@ footer{
     background: linear-gradient(to bottom right, rgba(216,152,210,0.8), rgba(243,142,175,0.6)); 
 }
 
-.socialicons{
-    margin-top: 50px;
+.icons {
+    margin: 50px;
 }
 
 .fa {
-    padding: 20px;
+    padding:20px;
+    margin: 0 7px;
     color: #fff;
     font-size: 30px;
     width: 30px;
@@ -291,15 +326,6 @@ footer{
     border-radius: 50%;
     background-color: #F38EAF;
 } 
-
-a {
-    text-decoration: none;
-    -webkit-transition: all 0.15s ease-in; /*--- transition on hover ---*/
-}
-
-a:hover {
-    color: #F4D7EA;
-}
 
 /*------------------ MEDIA QUERIES -------------------*/
 
