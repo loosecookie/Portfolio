@@ -19,8 +19,9 @@ body {
 /*------------------ HEADER ------------------------*/
 
 .header{
-    height: 100vh;
-    background: linear-gradient(to bottom right, rgba(216,152,210,0.8), rgba(243,142,175,0.6));
+    height: 100vh; 
+    background-repeat: no-repeat;
+    /*background: linear-gradient(to bottom right, rgba(216,152,210,0.8), rgba(243,142,175,0.6));*/
     background-image: url(icons/continuous.png)
 }
 
@@ -88,8 +89,8 @@ h4 { /*My Portfolio*/
 
 h6{ /*portfolio titles*/
     font-family: 'rift-soft', sans-serif;
-    font-weight:normal;
-    font-size: 30px;
+    font-weight: normal;
+    font-size: 40px;
 }
 
 p3{ /*portfolio text*/
@@ -144,13 +145,13 @@ nav ul li {
     display: inline;
     margin: 0 40px}
 
-nav a:link {color: #000}
+nav a:link {color: #FDECF3}
 
-nav a:visited {color: #000;}
+nav a:visited {color: #FDECF3;}
 
 nav a:hover {
     -webkit-transition: all 0.2s ease-in;
-    color: #FDECF3}
+    color: #000}
 
 /*-------------------- I CONSIDER MYSELF AS - ABOUT ME SECTION ----------------------*/
 
@@ -182,6 +183,12 @@ nav a:hover {
     padding-left: 1em;
     padding-top: 0.1em;
     padding-bottom: 0.1em;}
+
+.border2 {background: #F38EAF;
+    margin-bottom: 0px;
+    padding-left: 70px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 /*------------------- NEW OPPORTUNITIES - ABOUT ME SECTION ------------------*/
@@ -204,6 +211,8 @@ nav a:hover {
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
+    margin: 40px;
+    margin-bottom: 60px;
 } 
 
 #opportunities{
@@ -241,7 +250,7 @@ nav a:hover {
 }
 
 .box1, .box2, .box3, .box10, .box11, .box12{
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .box1 img:hover{
@@ -264,9 +273,10 @@ nav a:hover {
 
 .box7, .box8, .box9, .box16, .box17, .box18{
     text-align: left;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
     padding-left: 70px;
     padding-right: 50px;
+    line-height: 25px;
     width: calc(33.3333333% - 120px)
 }
 
@@ -291,15 +301,15 @@ nav a:hover {
 
 .boxx1{
     padding-top: 80px;
-    padding-left: 80px;
+    padding-left: 70px;
     padding-right: 60px;
-    width: calc(50% - 140px)
+    width: calc(50% - 130px)
 }
 
 .boxx4{
     padding-top: 130px;
     padding-left: 50px;
-    width: calc(50% - 150px)
+    width: calc(50% - 130px)
 }
 
 .boxx5{
@@ -324,8 +334,9 @@ nav a:hover {
 
 footer{
     text-align: center;
-    padding: 160px;
-    background: linear-gradient(to bottom right, rgba(216,152,210,0.8), rgba(243,142,175,0.6)); 
+    padding: 100px 150px 60px 150px;
+    background-image: url(icons/continuous.png);
+    background-repeat: no-repeat;
 }
 
 .icons {
