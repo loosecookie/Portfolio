@@ -154,6 +154,25 @@ nav a:hover {
 
 /*-------------------- I CONSIDER MYSELF AS - ABOUT ME SECTION ----------------------*/
 
+/*.contain {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 120px 50px;}
+
+.boox{
+    width:200px;
+    height:180px;
+    border-radius:200px;
+    font-size: 27px;
+    text-align: center;
+    padding:10px;
+    padding-top:120px;
+    margin:20px;
+    background: #F38EAF;
+    width:calc(33.333333% - 100px)
+}*/
+
 .padding{
     margin: 100px 50px;
 }
