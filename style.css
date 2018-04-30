@@ -7,6 +7,10 @@
     line-height: 1em;
 }
 
+img{
+    max-width:100%;
+}
+
 body {
     width: 100%;
     font-family: 'acumin-pro-condensed', sans-serif;
@@ -21,7 +25,6 @@ body {
 .header{
     height: 100vh; 
     background-repeat: no-repeat;
-    /*background: linear-gradient(to bottom right, rgba(216,152,210,0.8), rgba(243,142,175,0.6));*/
     background-image: url(icons/continuous.png)
 }
 
@@ -60,26 +63,17 @@ h5 { /*Welcome to my space*/
 p1 { /*I consider myself as*/
     font-size: 35px;
     font-family: 'acumin-pro-condensed', sans-serif;
-    margin-left: 100px;
-    line-height: 50px; /*--- spacing between each line ---*/
+    text-align: right;
 }
 
 h2 { /*UI Designer etc*/
     font-family: 'rift-soft', sans-serif;
     font-weight: normal;
-    text-align: left;
     font-size: 60px;
-}
-
-p { /*new opportunities text*/
-    font-size: 25px;
-    font-family: 'acumin-pro-condensed', sans-serif;
-    padding: 60px 70px;
     text-align: left;
-    background-color: #F38EAF;
 }
 
-h4 { /*My Portfolio*/
+h4 { /*Section Titles - AboutMe/MyPortfolio*/
     font-family: 'rift-soft', sans-serif;
     font-weight: normal;
     text-align: left;
@@ -122,6 +116,28 @@ a:hover {
     color: #F4D7EA;
 }
 
+.button {
+    background-color: #D898D2;
+    padding: 0px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+   	border:3px solid #FDECF3;
+}
+
+.button {
+    background-color: #D898D2;
+    border: 3px solid #FDECF3;
+    padding: 5px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 40px;
+    margin-bottom: 60px;
+} 
+
 /*------------------ NAVIGATION -------------------------*/
 
 nav {
@@ -155,85 +171,33 @@ nav a:hover {
 
 /*-------------------- I CONSIDER MYSELF AS - ABOUT ME SECTION ----------------------*/
 
-/*.contain {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 120px 50px;}
+div#about {
+    display:grid;
+    grid-template-columns: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
+    margin:50px 0px 50px 0px;
+        }
 
-.boox{
-    width:200px;
-    height:180px;
-    border-radius:200px;
-    font-size: 27px;
-    text-align: center;
-    padding:10px;
-    padding-top:120px;
-    margin:20px;
-    background: #F38EAF;
-    width:calc(33.333333% - 100px)
-}*/
+.item {
+    grid-column: 1/5;
+    display: inline-block; 
+    padding-top: 50px;
+    padding-left: 200px;
+        }
+.item2 {
+    grid-column: 5/8;
+    display: inline-block; 
+    padding-right: 200px;
+        }
 
-.padding{
-    margin: 100px 50px;
-}
+/*-------------------- FLEXBOX1 - ABOUT ME ----------------------*/
 
+/*-- About Me Title ---*/
 .border {background: #F38EAF;
-    margin: 0 100px 20px 100px;
-    padding-left: 1em;
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;}
-
-.border2 {background: #F38EAF;
     margin-bottom: 0px;
     padding-left: 70px;
     padding-top: 40px;
     padding-bottom: 30px;
 }
-
-/*------------------- NEW OPPORTUNITIES - ABOUT ME SECTION ------------------*/
-
-.button {
-    background-color: #D898D2;
-    padding: 0px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-   	border:3px solid #FDECF3;
-}
-
-.button {
-    background-color: #D898D2;
-    border: 3px solid #FDECF3;
-    padding: 5px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
-    margin: 40px;
-    margin-bottom: 60px;
-} 
-
-#opportunities{
-    display: grid;
-    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-}
-
-.item {
-    grid-column: 1/8;
-    }
-.item2 {
-    grid-column: 8/11;
-    background-color: #F38EAF;
-    padding-top: 70px;
-    padding-left: 28px;
-    }
-
-/*.border2 {background: #F38EAF;
-    padding-bottom:0;}
-
-/*-------------------- FLEXBOX1 - ABOUT ME ----------------------*/
 
 .container {
     display:flex;
@@ -250,8 +214,7 @@ nav a:hover {
 }
 
 .box1, .box2, .box3, .box10, .box11, .box12{
-    padding-top: 10px;
-}
+    padding-top: 10px;}
 
 .box1 img:hover{
     transform: scale(1.05);-webkit-transition: transform .4s; transition-timing-function: ease-in-out;}
@@ -294,11 +257,6 @@ nav a:hover {
     width: 50%/*calc(50% - 40px)*/
 }
 
-.boxx2, .boxx6{
-    text-align:right;
-    display: block;
-}
-
 .boxx1{
     padding-top: 80px;
     padding-left: 70px;
@@ -306,9 +264,15 @@ nav a:hover {
     width: calc(50% - 130px)
 }
 
+.boxx2, .boxx6{
+    text-align:right;
+    display: block;
+}
+
 .boxx4{
     padding-top: 130px;
     padding-left: 50px;
+    padding-right: 80px;
     width: calc(50% - 130px)
 }
 
