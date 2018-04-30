@@ -393,7 +393,7 @@ footer{
     p2{font-size: 30px;}
 /*----------- SMARTPHONE ----------- */
 
- @media (max-width: 35em) {
+ @media (max-width: 750px) {
      
      h1 {font-size: 100px;}
      h3 {font-size: 50px;}
