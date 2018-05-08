@@ -24,6 +24,7 @@ body {
 
 .header{
     height: 100vh; 
+    width: 100vw;
     background-repeat: no-repeat;
     background-image: url(icons/continuous.png)
 }
@@ -262,7 +263,7 @@ div#about {
 .item2 {
     grid-column: 5/8;
     display: inline-block; 
-    margin-right: 200px;
+    margin-left: 0px;
         }
 
 /*-------------------- FLEXBOX1 - ABOUT ME ----------------------*/
