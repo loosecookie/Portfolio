@@ -369,7 +369,7 @@ div#about {
 
 footer{
     text-align: center;
-    padding: 150px 150px 60px 150px;
+    padding: 100px 150px 60px 150px;
     background-image: url(icons/continuous2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -448,7 +448,7 @@ footer{
     
     .button2 {margin-top: 25px;} 
     
-    footer{padding:100px 100px 50px 100px;}
+    footer{padding:180px 100px 50px 100px;}
     p2{line-height: 30px;}
     .button {margin: 30px;}
     .icons {margin: 30px;}
