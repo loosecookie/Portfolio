@@ -392,9 +392,9 @@ footer{
 
 /*------------------ MEDIA QUERIES -------------------*/
 
-/*------ tablet ---------*/
+/*------ tablet landscape ---------*/
 
-@media only screen and (min-width:321px) and (max-width:768px){
+@media only screen and (min-width:321px) and (max-width:1024px){
     
     .arrow-wrap {
     margin-left:45em;}
