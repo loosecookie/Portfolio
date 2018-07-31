@@ -162,6 +162,7 @@ h6{ /*portfolio titles*/
 p3{ /*portfolio text*/
     font-size: 1.8vw;
     text-align: left;
+    line-height:25px;
 }
 
 p2 { /*footertext*/
@@ -413,7 +414,8 @@ footer{
     
     .box7, .box8, .box9, .box16, .box17, .box18{
     padding: 0px 10px 10px 30px;
-    line-height: 15px;
+    font-size: 1.8vw;
+    line-height: 20px;
     width: calc(33.3333333% - 40px)
 }
     .box16, .box17, .box18{padding-bottom: 30px;}
@@ -422,22 +424,23 @@ footer{
         display:flex;
         flex-wrap: wrap;}
     h4{margin-bottom: 40px;}
+    p3{font-size:1.8vw; line-height: 20px;}
     .boxx{width: 50%;}
     .boxx2, .boxx6{
         text-align:right;
         display: block;}
     .boxx1{
-        padding-top: 30px;
+        padding-top: 70px;
         padding-left: 30px;
         padding-right: 20px;
         width: calc(50% - 50px)}  
     .boxx4{
-        padding-top: 70px;
+        padding-top: 100px;
         padding-left: 30px;
         padding-right: 20px;
         width: calc(50% - 50px)}
     .boxx5{
-        padding-top: 70px;
+        padding-top: 100px;
         padding-left: 30px;
         padding-right: 20px;
         width: calc(50% - 50px)}
