@@ -39,7 +39,7 @@ body {
   position:absolute;
   z-index:1;
   top:60em;
-  margin-left:75em;
+  margin-left:47vw;
   background:#F4D7EA;
   width:6em;
   height:6em;
@@ -398,7 +398,7 @@ footer{
 @media only screen and (min-width:321px) and (max-width:1024px){
     
     .arrow-wrap {
-    margin-left:45em;}
+    margin-left:47vw;}
 
     .item {
     margin-top: 30px;
@@ -423,14 +423,14 @@ footer{
     .container2 {
         display:flex;
         flex-wrap: wrap;}
-    h4{margin-bottom: 40px;}
+    h4{margin-bottom: 60px;}
     p3{font-size:1.8vw; line-height: 20px;}
     .boxx{width: 50%;}
     .boxx2, .boxx6{
         text-align:right;
         display: block;}
     .boxx1{
-        padding-top: 70px;
+        padding-top: 30px;
         padding-left: 30px;
         padding-right: 20px;
         width: calc(50% - 50px)}  
