@@ -7,10 +7,6 @@
     line-height: 1em;
 }
 
-img{
-    max-width:100%;
-}
-
 body {
     width: 100%;
     font-family: 'acumin-pro-condensed', sans-serif;
@@ -25,17 +21,19 @@ body {
 .header{
     height: 100vh; 
     background-repeat: no-repeat;
-    background-image: url(icons/continuous.png)
+    background-image: url(icons/continuous2.png);
+    background-size: cover;
 }
 
 .padding1{
     padding-top: 150px;
-    padding-right: 485px;
+    padding-left: 50vw;
 }
 
-.padding2{
-    padding-right:100px;
+.padding2{padding-left: 50vw;
 }
+
+.padding3{padding-right: 8vw;}
 
 .arrow-wrap {
   position:absolute;
@@ -118,58 +116,56 @@ border-color: #FDECF3 transparent transparent transparent;
 h3 { /*Hi! I'm*/
     font-family: 'acumin-pro-condensed', sans-serif;
     font-weight: normal;
-    text-align: right;
-    font-size: 70px;
+    font-size:5vw;
 }
 
 h1 { /*LUCY COOK*/
     font-family: 'rift-soft', sans-serif;
     font-weight: normal; 
-    text-align: right;
-    font-size: 150px;
+    font-size:11vw;
 }
 
 h5 { /*Welcome to my space*/
     font-family: 'acumin-pro-condensed', sans-serif;
     font-weight: normal;
     text-align: right;
-    font-size: 35px;
+    font-size:3vw;
 }
 
 p1 { /*I consider myself as*/
-    font-size: 35px;
     font-family: 'acumin-pro-condensed', sans-serif;
     text-align: right;
+    font-size:3vw;
 }
 
 h2 { /*UI Designer etc*/
     font-family: 'rift-soft', sans-serif;
     font-weight: normal;
-    font-size: 60px;
     text-align: left;
+    font-size:5vw;
 }
 
 h4 { /*Section Titles - AboutMe/MyPortfolio*/
     font-family: 'rift-soft', sans-serif;
     font-weight: normal;
     text-align: left;
-    font-size: 60px;
+    font-size: 5vw;
     margin-bottom: 60px;
 }
 
 h6{ /*portfolio titles*/
     font-family: 'rift-soft', sans-serif;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 2.7vw;
 }
 
 p3{ /*portfolio text*/
-    font-size: 25px;
+    font-size: 1.8vw;
     text-align: left;
 }
 
 p2 { /*footertext*/
-    font-size: 35px;
+    font-size: 2.5vw;
     font-family: 'acumin-pro-condensed', sans-serif;
     line-height: 40px;
 }
@@ -209,7 +205,7 @@ a:hover {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 3vw;
     margin: 40px;
     margin-bottom: 60px;
 } 
@@ -229,8 +225,8 @@ nav {
 nav ul {
     text-align: center;
     font-family: 'rift-soft', sans-serif;
-    font-size: 30px;
     letter-spacing: 1px;
+    font-size:2.5vw;
 }
 
 nav ul li {
@@ -250,13 +246,13 @@ nav a:hover {
 div#about {
     display:grid;
     grid-template-columns: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
-    margin:50px 0px 50px 0px;
+    margin:50px 0px 40px 0px;
         }
 
 .item {
     grid-column: 1/5;
     display: inline-block; 
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 200px;
         }
 .item2 {
@@ -278,11 +274,10 @@ div#about {
 .container {
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .box{
-    font-size: 20px;
+    font-size: 1.6vw;
     text-align: center;
     padding: 10px;
     background: #F38EAF;
@@ -307,16 +302,16 @@ div#about {
 
 .box4, .box5, .box6, .box13, .box14, .box15 {
     font-family: 'rift-soft', sans-serif;
-    font-size: 30px;
+    font-size: 2.7vw;
 }
 
 .box7, .box8, .box9, .box16, .box17, .box18{
     text-align: left;
     padding-bottom: 70px;
-    padding-left: 70px;
-    padding-right: 50px;
-    line-height: 25px;
-    width: calc(33.3333333% - 120px)
+    padding-left: 50px;
+    padding-right: 40px;
+    line-height: 4vh;
+    width: calc(33.3333333% - 90px)
 }
 
 /*-------------------- FLEXBOX2 PORTFOLIO ----------------------*/
@@ -327,7 +322,6 @@ div#about {
 }
 
 .boxx{
-    font-size: 25px;
     text-align: left;
     background: #FDECF3;
     width: 50%/*calc(50% - 40px)*/
@@ -367,7 +361,7 @@ div#about {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 3vw;
 } 
 
 /*-------------------- FOOTER ----------------------*/
@@ -375,8 +369,9 @@ div#about {
 footer{
     text-align: center;
     padding: 100px 150px 60px 150px;
-    background-image: url(icons/continuous.png);
+    background-image: url(icons/continuous2.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .icons {
@@ -399,94 +394,78 @@ footer{
 
 /*------ tablet ---------*/
 
-@media (max-width: 50em) {
+@media only screen and (min-width:321px) and (max-width:768px){
     
     .arrow-wrap {
-        margin-left:45em;}
+    margin-left:45em;}
 
-    p1  {font-size: 30px;}
-    h2{font-size: 50px;}
     .item {
     margin-top: 30px;
     margin-left: 100px;}
-    .item2 {width: 80%;}
     
-    .border {background: #F38EAF;
-    margin-bottom: 0px;
-    padding-left: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+    .item2 {
+    width: 30vw;
+    }
     
-    .box1 img, .box2 img, .box3 img, .box10 img, .box11 img, .box12 img {width:70%;}
+    .border {padding: 20px 0px 20px 30px}
+    
+    .box1 img, .box2 img, .box3 img, .box10 img, .box11 img, .box12 img{width: 22vw;}
+    
     .box7, .box8, .box9, .box16, .box17, .box18{
-    font-size: 18px;
-    padding-left: 30px;
-    padding-right: 10px;
-    line-height: 20px;
+    padding: 0px 10px 10px 30px;
+    line-height: 15px;
     width: calc(33.3333333% - 40px)
 }
-    p {font-size: 20px; padding-left: 30px;}
-    .item2 {padding-left:0px;}
+    .box16, .box17, .box18{padding-bottom: 30px;}
     
-    h4{ font-size: 50px; margin-bottom:20px;}
-    p3{ font-size:20px;}
-    h6 {font-size: 30px;}
+    .container2 {
+        display:flex;
+        flex-wrap: wrap;}
+    h4{margin-bottom: 40px;}
+    .boxx{width: 50%;}
+    .boxx2, .boxx6{
+        text-align:right;
+        display: block;}
+    .boxx1{
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 20px;
+        width: calc(50% - 50px)}  
+    .boxx4{
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 20px;
+        width: calc(50% - 50px)}
+    .boxx5{
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 20px;
+        width: calc(50% - 50px)}
     
-.container2 {
-    display:flex;
-    flex-wrap: wrap;}
-.boxx{
-    font-size: 15px;
-    width: 50%;}
-.boxx2, .boxx6{
-    text-align:right;
-    display: block;}
-.boxx1{
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 20px;
-    width: calc(50% - 50px)}  
-.boxx2 img {width:130%;}
-.boxx3 img {width:105%; margin-top:20px;}
-.boxx4{
-    padding-top: 60px;
-    padding-left: 30px;
-    padding-right: 20px;
-    width: calc(50% - 50px)}
-.boxx5{
-    padding-top: 40px;
-    padding-left: 30px;
-    padding-right: 20px;
-    width: calc(50% - 50px)}
-.boxx6 img{width: 100%;}*/
+    .button2 {margin-top: 25px;} 
     
-    p2{font-size: 30px;}
-    footer{padding:50px;
-    }
-     p2{font-size: 30px;}
-/*----------- SMARTPHONE ----------- */
-
- @media (max-width: 35em) {
+    footer{padding:100px 100px 50px 100px;}
+    p2{line-height: 30px;}
+    .button {margin: 30px;}
+    .icons {margin: 30px;}
+    
+/*----------- SMARTPHONE ----------- */   
+    
+    
+    
+/* @media (max-width: 35em) {
      
      .arrow-wrap {
          margin-left:30em;}
      
-     h1 {font-size: 100px;}
-     h3 {font-size: 50px;}
-     h5 {font-size: 30px;}
      .padding1{padding-right: 350px;}
      
-     nav ul {font-size: 25px;}
      nav ul li {margin: 0 15px}
      
-     p1  {font-size: 25px;}
-     h2{font-size: 50px;}
     .item {
     margin-top: 0px;
     margin-left: 40px;
     margin-right:0px;}
-    .item2 {width: 90%; margin-left: 10px;}
     
     .border {background: #F38EAF;
     margin-bottom: 0px;
@@ -495,10 +474,8 @@ footer{
     padding-bottom: 20px;
 }
        
-     .box1 img, .box2 img, .box3 img, .box10 img, .box11 img, .box12 img {width:80%;}
-     .box4, .box5, .box6, .box13, .box14, .box15 {font-size: 20px;}
      .box7, .box8, .box9, .box16, .box17, .box18{
-         font-size: 14px; padding-bottom: 5px; padding-left: 20px; width: calc(33.3333333% - 30px); line-height: 15px; padding-bottom:20px;}
+         padding-bottom: 5px; padding-left: 20px; width: calc(33.3333333% - 30px); line-height: 15px; padding-bottom:20px;}
      
     p {font-size: 20px;
      padding-left: 20px;
