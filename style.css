@@ -396,7 +396,7 @@ footer{
 
 /*------ tablet landscape ---------*/
 
-@media only screen and (min-width:321px) and (max-width:1024px){
+@media only screen and (min-width:768px) and (max-width:1024px) {
     
     .arrow-wrap {
     margin-left:47vw;}
@@ -454,6 +454,64 @@ footer{
     p2{line-height: 30px;}
     .button {margin: 30px;}
     .icons {margin: 30px;}
+
+}
+/*------ tablet portrait ---------*/
+
+@media only screen and (min-width:600px) and (max-width:768px) {
+ 
+    .arrow-wrap {
+    margin-left:45vw;}
+
+    .item {
+    margin-top: 20px;
+    margin-left: 100px;}
+    
+    .item2 {width: 30vw;}
+    
+    .border {padding: 20px 0px 20px 30px}
+    .box1 img, .box2 img, .box3 img, .box10 img, .box11 img, .box12 img{width: 22vw;}
+    .box7, .box8, .box9, .box16, .box17, .box18{
+    padding: 0px 10px 10px 30px;
+    font-size: 1.8vw;
+    line-height: 17px;
+    width: calc(33.3333333% - 40px)}
+    .box16, .box17, .box18{padding-bottom: 30px;}
+    
+    .container2 {
+        display:flex;
+        flex-wrap: wrap;}
+    h4{margin-bottom: 30px;}
+    p3{font-size:1.9vw; line-height: 20px;}
+    .boxx{width: 50%;}
+    .boxx2, .boxx6{
+        text-align:right;
+        display: block;}
+    .boxx1{
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 40px;
+        width: calc(50% - 70px)}  
+    .boxx4{
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 40px;
+        width: calc(50% - 70px)}
+    .boxx5{
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 40px;
+        width: calc(50% - 70px)}
+    
+    .button2 {margin-top: 25px;} 
+    
+    footer{padding:200px 100px 50px 100px;}
+    p2{line-height: 30px;}
+    .button {margin: 30px;}
+    .icons {margin: 30px;}
+    
+    
+}
     
 /*----------- SMARTPHONE ----------- */   
     
