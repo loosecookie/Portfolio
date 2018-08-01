@@ -526,73 +526,67 @@ footer{
     
 /*----------- SMARTPHONE ----------- */   
     
+@media only screen and (min-width:0px) and (max-width:600px) {
+     
     
-    
-/* @media (max-width: 35em) {
-     
-     .arrow-wrap {
-         margin-left:30em;}
-     
-     .padding1{padding-right: 350px;}
-     
-     nav ul li {margin: 0 15px}
-     
-    .item {
-    margin-top: 0px;
-    margin-left: 40px;
-    margin-right:0px;}
-    
-    .border {background: #F38EAF;
-    margin-bottom: 0px;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-       
-     .box7, .box8, .box9, .box16, .box17, .box18{
-         padding-bottom: 5px; padding-left: 20px; width: calc(33.3333333% - 30px); line-height: 15px; padding-bottom:20px;}
-     
-    p {font-size: 20px;
-     padding-left: 20px;
-     padding-right: 20px;}
-     
-    .button {
-    padding: 5px 30px;
-    font-size: 25px;}
+    h3 {font-size:7vw;}
+    .padding1{padding-top: 200px;
+    padding-left: 20vw;}
 
-     
-.container2 {
-    display:flex;
-    flex-wrap: wrap;}
-h4{font-size:40px;}
-p3 {font-size:15px; line-height: normal;}
-.boxx{width: 50%;}
-.boxx2, .boxx6{
-    text-align:right;
-    display: block;}
-.boxx1{
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    width: calc(50% - 30px)}  
-.boxx2 img {width:150%;}
-.boxx3 img {width:120%;}
-.boxx3 {padding-top: 30px;}
-.boxx4{
-    padding-top: 40px;
-    padding-left: 20px;
-    width: calc(50% - 40px)}
-.boxx5{
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    width: calc(50% - 30px)}
-.boxx6 img{width: 100%; padding-top: 40px;}
-     
-     h6 {font-size: 25px;}
-     .button2 {font-size: 25px; margin-top: 15px;}
-     
-     footer {padding: 80px 30px; }
-     p2{font-size: 25px; line-height: 30px;}
-     
-     .icons{margin: 20px;}
+    h1 {font-size:17vw;}
+    .padding2{padding-left: 20vw;}
+
+    h5 {font-size:4vw;}
+    .padding3{padding-right: 20vw;}
+    
+    .arrow-wrap {
+    margin-top: 15vh;
+    margin-left:43vw;}
+
+    .item {
+    margin-top: 15px;
+    margin-left: 80px;}
+    
+    .item2 {width: 30vw;}
+    
+    .border {padding: 20px 0px 20px 30px}
+    .box1 img, .box2 img, .box3 img, .box10 img, .box11 img, .box12 img{width: 22vw;}
+    .box7, .box8, .box9, .box16, .box17, .box18{
+    padding: 0px 10px 30px 30px;
+    font-size: 1.8vw;
+    line-height: 15px;
+    width: calc(33.3333333% - 40px)}
+    .box16, .box17, .box18{padding-bottom: 30px;}
+    
+    .container2 {
+        display:flex;
+        flex-wrap: wrap;}
+    h4{margin-bottom: 30px;}
+    p3{font-size:1.9vw; line-height: 13px;}
+    .boxx{width: 50%;}
+    .boxx2, .boxx6{
+        text-align:right;
+        display: block;}
+    .boxx1{
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 40px;
+        width: calc(50% - 70px)}  
+    .boxx4{
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 40px;
+        width: calc(50% - 70px)}
+    .boxx5{
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 40px;
+        width: calc(50% - 70px)}
+    
+    .button2 {margin-top: 25px;} 
+    
+    footer{padding:80px 100px 50px 100px;
+    height: 35vh;}
+    p2{line-height: 20px;}
+    .button {margin: 30px;}
+    .icons {margin: 30px;}
